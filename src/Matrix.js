@@ -18,7 +18,6 @@ export default class Matrix extends Component {
     });
   };
 
-<<<<<<< HEAD
   getColor = () => this.state.color;
 
   genRow = vals =>
@@ -32,12 +31,6 @@ export default class Matrix extends Component {
         {this.genRow(rowVals)}
       </div>
     ));
-=======
-  genMatrix = () => (
-    this.props.values.map((rowVals, idx) => <div key={idx} className="row">{this.genRow(rowVals)}</div>)
-  )
-Ï
->>>>>>> 12310c0d6990a50657546629a4760a5489814984
 
   render() {
     return (
